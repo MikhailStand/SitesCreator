@@ -89,6 +89,9 @@
     @media(max-width:1100px){.blueprint{grid-template-columns:repeat(2,minmax(0,1fr))}}
     @media(max-width:600px){.blueprint{grid-template-columns:1fr}.blueprint article{min-height:8.5rem}}
     @media(max-width:480px){.hero .text-link{transform-origin:center}}
+    /* Все три сценария сохраняют одну геометрию и одинаковые светлые ячейки. */
+    .solution-panel[data-theme="trust"] .blueprint article{color:var(--ink);background:var(--paper);border-color:var(--ink)}
+    @media(min-width:1101px){.solution-result{min-height:42rem}.solution-result h3{min-height:4.16em}}
     @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.motion-heading{opacity:1;transform:none}}
   </style>
 </head>
